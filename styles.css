@@ -3,6 +3,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin: 0px;
+    padding: 0px;
 }
 
 .header, .box1 {
@@ -37,6 +39,37 @@ body {
 
 .box2 {
     color: #1F2937;
+    margin-bottom: 100px;
+}
+
+.box2-main {
+    font-size: 36px;
+    font-weight: 900px;
+    color: #1F2937;
+    text-align: center;
+}
+
+.box2-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.box2-elem {
+    width: 150px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box2-square {
+    height: 150px;
+    width: 150px;
+    border: 4px #3882F6 solid;
+    border-radius: 16px;
+    margin-bottom: 10px;
 }
 
 .box3 {
